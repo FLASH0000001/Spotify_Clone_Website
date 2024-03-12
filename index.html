@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Clone</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="logo image">Spotify Clone</li>
+            <li>Home</li>
+            <li>Music Library</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <p>Spotify Musics</p>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="song image">
+                    <span class="songName">Dil Jhoom</span>
+                    <span class="songlistplay"><span class="time">05:18 <i id="0" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="song image">
+                    <span class="songName">Pyar Ho</span>
+                    <span class="songlistplay"><span class="time">02:59 <i id="1" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="song image">
+                    <span class="songName">Kesariya</span>
+                    <span class="songlistplay"><span class="time">04:21 <i id="2" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="song image">
+                    <span class="songName">Labon ko</span>
+                    <span class="songlistplay"><span class="time">05:35 <i id="3" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="song image">
+                    <span class="songName">Baarish</span>
+                    <span class="songlistplay"><span class="time">04:43 <i id="4" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="song image">
+                    <span class="songName">Humnava Mere</span>
+                    <span class="songlistplay"><span class="time">06:47 <i id="5" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="soundwave.gif" alt="soundwave gif" id="gif"><span id="masterSongName">Dil Jhoom</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/54bd102c49.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
